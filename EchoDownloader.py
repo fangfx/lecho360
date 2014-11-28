@@ -10,20 +10,21 @@ from selenium import webdriver
 #  3. download_after
 class EchoDownloader(object):
 
-    def __init__(self, course, titles, output_dir):
+    def __init__(self, course, output_dir):
         self._course = course
 
         self._driver = webdriver.PhantomJS()
         self._driver.get(self._course.url) # Initialize to establish the 'anon' cookie that Echo360 sends.
-        
+
         self._output_dir = output_dir or ""
-        self._titles = titles
         self._useragent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1944.0 Safari/537.36"
         self._videos = []
 
     def download_all(self):
-        for i, video in enumerate(self._course.get_videos(self._driver).videos):
-            title = video.title if (video.title != "") else "Lecture {}.m4v".format(i+1)
+        echo_videos = self._course.get_videos(self._driver)
+        
+        for i, video in enumerate(echo_videos.videos):
+            title = video.title if (video.title != "") else "Lecture {}".format(i+1)
             filename = self._get_filename(self._course.course_id, video.date, video.title)
 
             print "Downloading {} of {}: {}".format(i+1, len(self._course.get_videos(self._driver).videos), video.url)

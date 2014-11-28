@@ -6,12 +6,14 @@ from EchoVideo import EchoVideo
 
 class EchoVideos(object):
 
-    def __init__(self, videos_json, titles=None):
+    def __init__(self, videos_json, titles):
         assert(videos_json is not None)
 
         self._videos = []
         for video_json in videos_json:
-            self._videos.append(EchoVideo(video_json, self._get_title(titles, video_json)))
+            video_date = EchoVideo.get_date(video_json)
+            video_title = self._get_title(titles, video_date)
+            self._videos.append(EchoVideo(video_json, video_title))
 
         self._videos.sort(key=operator.attrgetter("date"))
 
@@ -25,8 +27,9 @@ class EchoVideos(object):
 
         try:
             for title in titles:
-                if date == dateutil.parser.parse(title["date"]).date():
-                    return title["title"]
+                title_date = dateutil.parser.parse(title["date"]).date()
+                if date == title_date:
+                    return title["title"].encode("ascii")
             return ""
 
         except KeyError as e:

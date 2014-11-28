@@ -7,12 +7,12 @@ from EchoVideos import EchoVideos
 
 class EchoCourse(object):
 
-    def __init__(self, uuid, titles=None):
+    def __init__(self, uuid, titles):
         self._course_id = ""
         self._uuid = uuid
         self._titles = titles
         self._videos = None
-        
+
         self._hostname = "http://recordings.engineering.illinois.edu"
         self._url = "{}/ess/portal/section/{}".format(self._hostname, self._uuid)
         self._video_url = "{}/ess/client/api/sections/{}/section-data.json?pageSize=100".format(self._hostname, self._uuid)
@@ -50,7 +50,7 @@ class EchoCourse(object):
             try:
                 driver = webdriver.PhantomJS() #TODO Redo this. Maybe use a singleton factory to request the lecho360 driver?s
                 driver.get(self._url) # Initialize to establish the 'anon' cookie that Echo360 sends.
-                driver.get(self._video_url) # Initialize to establish the 'anon' cookie that Echo360 sends.
+                driver.get(self._video_url)
                 course_data_json = self._get_course_data(driver)
 
                 self._course_id = course_data_json["section"]["course"]["identifier"]
@@ -71,4 +71,4 @@ class EchoCourse(object):
     def _blow_up(self, msg, e):
         print msg
         print "Exception: {}".format(str(e))
-        sys.exit(1)     
+        sys.exit(1)

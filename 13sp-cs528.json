@@ -1,0 +1,152 @@
+{
+  "course": "CS 528 - Object Oriented Programming and Design",
+  "uuid": "1b674cd2-d197-4652-85d9-c41e6b886f42",
+  "semester": "Spring 2013",
+  "professor": "Ralph Johnson",
+  "titles": [
+    {
+      "date": "20130115",
+      "title": "Introduction to Object Oriented Programming"
+    },
+
+    {
+      "date": "20130117",
+      "title": "Smalltalk in a Nutshell"
+    },
+
+    {
+      "date": "20130122",
+      "title": "Encapsulation and Data Abstraction"
+    },
+
+    {
+      "date": "20130124",
+      "title": "Inheritance"
+    },
+
+    {
+      "date": "20130129",
+      "title": "Polymorphism and Double Dispatching"
+    },
+
+    {
+      "date": "20130131",
+      "title": "Collections and Streams"
+    },
+
+    {
+      "date": "20130205",
+      "title": "Collections and Streams (continued)"
+    },
+
+    {
+      "date": "20130207",
+      "title": "Object Identity and Value Object"
+    },
+
+    {
+      "date": "20130212",
+      "title": "What is Design?"
+    },
+
+    {
+      "date": "20130214",
+      "title": "CRC and Patterns"
+    },
+
+    {
+      "date": "20130219",
+      "title": "Pattern Language and Smalltalk Coding Patterns"
+    },
+
+    {
+      "date": "20130221",
+      "title": "Smalltalk Coding Patterns (continued)"
+    },
+
+    {
+      "date": "20130226",
+      "title": "Refactoring"
+    },
+
+    {
+      "date": "20130228",
+      "title": "Composite Pattern"
+    },
+
+    {
+      "date": "20130305",
+      "title": "Template Method, Command, Strategy, and State"
+    },
+
+    {
+      "date": "20130307",
+      "title": "Observer Pattern"
+    },
+
+    {
+      "date": "20130312",
+      "title": "Mediator, Observer, and Adapter Patterns"
+    },
+
+    {
+      "date": "20130314",
+      "title": "Dependence Management (Packaging), Creational Patterns"
+    },
+
+    {
+      "date": "20130326",
+      "title": "Frameworks"
+    },
+
+    {
+      "date": "20130328",
+      "title": "Centralized vs. Decentralized: Interpreter and Visitor"
+    },
+
+    {
+      "date": "20130402",
+      "title": "Iterator, Proxy, Bridge, Flyweight, and Chain of Responsibility"
+    },
+
+    {
+      "date": "20130404",
+      "title": "Decorators, Chain of Responsibility (revisited), Memento, Refactoring"
+    },
+
+    {
+      "date": "20130409",
+      "title": "Patterns and Refactoring, Exceptions"
+    },
+
+    {
+      "date": "20130411",
+      "title": "How to Design Frameworks"
+    },
+
+    {
+      "date": "20130416",
+      "title": "Analysis Patterns"
+    },
+
+    {
+      "date": "20130418",
+      "title": "Adaptive Object Model"
+    },
+
+    {
+      "date": "20130423",
+      "title": "Patterns of Enterprise Applications"
+    },
+
+    {
+      "date": "20130425",
+      "title": "Organizing Software Development (and Domain Driven Design)"
+    },
+
+    {
+      "date": "20130430",
+      "title": "What to Know for the Final"
+    }
+  ]
+}
