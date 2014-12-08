@@ -26,25 +26,24 @@ def handle_args():
 
     args = vars(parser.parse_args())
     course_uuid = args["uuid"]
-    titles_path = None if args["titles"] == "" else args["titles"]
-    output_dir = "" if args["output"] == "" else args["output"]
+    titles_path = args["titles"] if args["titles"] != None else ""
+    titles_path = titles_path if os.path.isfile(titles_path) else ""
+    output_path = args["output"] if args["output"] != None else ""
+    output_path = output_path if os.path.isdir(output_path) else ""
 
-    return (course_uuid, titles_path, output_dir)
+    return (course_uuid, titles_path, output_path)
 
 def main():
-    course_uuid, titles_path, output_dir = handle_args()
-    titles = None
+    course_uuid, titles_path, output_path = handle_args()
 
-    if titles_path is not None and os.path.isfile(titles_path):
+    titles = None
+    if titles_path != "":
         with open(titles_path, "r") as titles_json:
             data = json.load(titles_json)
-            try:
-                titles = data["titles"]
-            except KeyError as e:
-                titles = None
+            titles = data["titles"] if "titles" in data else None
 
     course = EchoCourse(course_uuid, titles)
-    downloader = EchoDownloader(course, output_dir)
+    downloader = EchoDownloader(course, output_path)
     downloader.download_all()
 
 def _blow_up(self, str, e):
