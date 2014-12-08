@@ -1,0 +1,167 @@
+{
+  "course": "CS 425 - Distributed Systems",
+  "uuid": "11ae0191-49e2-4c34-95fd-fc65355262d4",
+  "semester": "Fall 2014",
+  "professor": "Indranil (Indy) Gupta:",
+  "titles": [
+    {
+      "date": "20140826",
+      "title": "Introduction"
+    },
+
+    {
+      "date": "20140828",
+      "title": "Introduction to Cloud Computing"
+    },
+
+    {
+      "date": "20140902",
+      "title": "Mapreduce and Hadoop"
+    },
+
+    {
+      "date": "20140904",
+      "title": "Failure Detectors"
+    },
+
+    {
+      "date": "20140909",
+      "title": "Time and Ordering"
+    },
+
+    {
+      "date": "20140911",
+      "title": "Snapshots"
+    },
+
+    {
+      "date": "20140916",
+      "title": "Multicast Communications"
+    },
+
+    {
+      "date": "20140918",
+      "title": "Gossiping"
+    },
+
+    {
+      "date": "20140923",
+      "title": "P2P Systems (I)"
+    },
+
+    {
+      "date": "20140925",
+      "title": "P2P Systems (II)"
+    },
+
+    {
+      "date": "20140930",
+      "title": "Leader Election"
+    },
+
+    {
+      "date": "20141002",
+      "title": "Mutual Exclusion"
+    },
+
+    {
+      "date": "20141007",
+      "title": "Consensus"
+    },
+
+    {
+      "date": "20141009",
+      "title": "Networking and Routing"
+    },
+
+    {
+      "date": "20141014",
+      "title": "Midterm"
+    },
+
+    {
+      "date": "20141016",
+      "title": "RPCs and Marshalling"
+    },
+
+    {
+      "date": "20141021",
+      "title": "Concurrency Control"
+    },
+
+    {
+      "date": "20141023",
+      "title": "Replication Control and Paxos"
+    },
+
+    {
+      "date": "20141028",
+      "title": "Key-value Stores and NoSQL (I)"
+    },
+
+    {
+      "date": "20141030",
+      "title": "Key-value Stores/NoSQL (II)"
+    },
+
+    {
+      "date": "20141104",
+      "title": "Key-value Stores/NoSQL (III)"
+    },
+
+    {
+      "date": "20141106",
+      "title": "Stream Processing and Graph Processing in Clouds"
+    },
+
+    {
+      "date": "20141111",
+      "title": "Measurements and Characteristics of Real Distributed Systems"
+    },
+
+    {
+      "date": "20141113",
+      "title": "Sensor Networks and Security"
+    },
+
+    {
+      "date": "20141118",
+      "title": "Distributed Shared Memory"
+    },
+
+    {
+      "date": "20141120",
+      "title": "Self-Stabilization"
+    },
+
+    {
+      "date": "20141125",
+      "title": "Thanksgiving Break (I)"
+    },
+
+    {
+      "date": "20141127",
+      "title": "Thanksgiving Break (II)"
+    },
+
+    {
+      "date": "20141202",
+      "title": "Distributed File Systems"
+    },
+
+    {
+      "date": "20141204",
+      "title": "Datacenter Disasters - Case Studies"
+    },
+
+    {
+      "date": "20141209",
+      "title": "Wrap-up"
+    },
+
+    {
+      "date": "20141212",
+      "title": "Final Exam"
+    }
+  ]
+}
