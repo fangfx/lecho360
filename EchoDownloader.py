@@ -22,12 +22,17 @@ class EchoDownloader(object):
 
     def download_all(self):
         echo_videos = self._course.get_videos(self._driver)
-        
-        for i, video in enumerate(echo_videos.videos):
-            title = video.title if (video.title != "") else "Lecture {}".format(i+1)
-            filename = self._get_filename(self._course.course_id, video.date, video.title)
+        total_videos = len(echo_videos.videos)
 
-            print "Downloading {} of {}: {}".format(i+1, len(self._course.get_videos(self._driver).videos), video.url)
+        # Download the newest video first but maintain it's original index
+        # in case a JSON file isn't passed (and we need to label them as
+        # Lecture 1, 2, ...)
+        for i, video in reversed(list(enumerate(echo_videos.videos))):
+            title = video.title if (video.title != "") else "Lecture {}".format(i+1)
+            filename = self._get_filename(self._course.course_id, video.date, title)
+
+
+            print "Downloading {} of {}: {}".format(total_videos - i, total_videos, video.url)
             print "  to {}\n".format(filename)
             self._download_as(video.url, filename)
 

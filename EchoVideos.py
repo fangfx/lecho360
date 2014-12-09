@@ -15,7 +15,7 @@ class EchoVideos(object):
             video_title = self._get_title(titles, video_date)
             self._videos.append(EchoVideo(video_json, video_title))
 
-        self._videos.sort(key=operator.attrgetter("date"), reverse=True)
+        self._videos.sort(key=operator.attrgetter("date"))
 
     @property
     def videos(self):
