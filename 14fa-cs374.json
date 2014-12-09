@@ -1,0 +1,168 @@
+
+{
+  "course": "CS 374 - Algorithms and Models of Computation",
+  "uuid": "115f3def-7371-4e98-b72f-6efe53771b2a",
+  "semester": "Fall 2014",
+  "professor": "Jeff Erickson",
+  "titles": [
+    {
+      "date": "20140826",
+      "title": "Introduction and History"
+    },
+
+    {
+      "date": "20140828",
+      "title": "Strings, String Functions, and Languages"
+    },
+
+    {
+      "date": "20140902",
+      "title": "Regular Expressions and Context-Free Grammars"
+    },
+
+    {
+      "date": "20140904",
+      "title": "DFAs - Definitions, Examples, and Intuition"
+    },
+
+    {
+      "date": "20140909",
+      "title": "DFAs - Design, Construction, and Closure Properties"
+    },
+
+    {
+      "date": "20140911",
+      "title": "NFA - Definitions, Examples, and Intuition"
+    },
+
+    {
+      "date": "20140916",
+      "title": "NFAs - Epsilon-transitions, Generalizations, and Equivalence"
+    },
+
+    {
+      "date": "20140918",
+      "title": "Recursion - Towers of Hanoi and Mergesort"
+    },
+
+    {
+      "date": "20140923",
+      "title": "Recursion - Linear-time Selection and Karatsuba Multiplication"
+    },
+
+    {
+      "date": "20140925",
+      "title": "Midterm 1 Review"
+    },
+
+    {
+      "date": "20140930",
+      "title": "Backtracking - N Queens, Subset Sum, NFA Acceptance, and Longest Increasing Subsequence"
+    },
+
+    {
+      "date": "20141002",
+      "title": "Dynamic Programming - Fibonacci and Longest Increasing Subsequence"
+    },
+
+    {
+      "date": "20141007",
+      "title": "Dynamic Programming - Subset Sum, NFA Acceptance, and Edit Distance"
+    },
+
+    {
+      "date": "20141009",
+      "title": "Tree-like Dynamic Programming - Parsing Context-Free Languages"
+    },
+
+    {
+      "date": "20141014",
+      "title": "Greedy Algorithms - Tape Sorting, Scheduling, and Exchange Arguments"
+    },
+
+    {
+      "date": "20141016",
+      "title": "Graphs - Definitions, Representations, and Whatever-First Search"
+    },
+
+    {
+      "date": "20141021",
+      "title": "Graphs - Depth-First Search and Topological Sort"
+    },
+
+    {
+      "date": "20141023",
+      "title": "Graphs - Minimum Spanning Trees via Boruvka"
+    },
+
+    {
+      "date": "20141028",
+      "title": "Graphs - Single-Source Shortest Paths via Dijkstra and Bellman-Ford"
+    },
+
+    {
+      "date": "20141030",
+      "title": "Turing Machines - History, Definitions, and Examples"
+    },
+
+    {
+      "date": "20141104",
+      "title": "Turing Machines - Variations"
+    },
+
+    {
+      "date": "20141106",
+      "title": "Midterm 2"
+    },
+
+    {
+      "date": "20141111",
+      "title": "Nondeterminism and Dovetailing"
+    },
+
+    {
+      "date": "20141113",
+      "title": "Computational Complexity - P vs NP, NP-Hardness, Cook-Levin Theorem, and SAT"
+    },
+
+    {
+      "date": "20141118",
+      "title": "Computational Complexity - NP-Hardness Reductions via 3SAT, Independent Set, Clique, and Vertex Cover"
+    },
+
+    {
+      "date": "20141120",
+      "title": "Computational Complexity - NP-hardness Reductions via 3-Coloring, Hamiltonian Cycle, and International Draughts"
+    },
+
+    {
+      "date": "20141125",
+      "title": "Thanksgiving Break (I)"
+    },
+
+    {
+      "date": "20141127",
+      "title": "Thanksgiving Break (II)"
+    },
+
+    {
+      "date": "20141202",
+      "title": "Undecidability - Diagonalization, Reductions, and Halting Problem"
+    },
+
+    {
+      "date": "20141204",
+      "title": "Undecidability - Reductions and Rice's Theorem"
+    },
+
+    {
+      "date": "20141209",
+      "title": "Wrap-up"
+    },
+
+    {
+      "date": "20141216",
+      "title": "Final Exam"
+    }
+  ]
+}
