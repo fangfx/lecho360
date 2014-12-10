@@ -1,0 +1,251 @@
+{
+  "course": "CS 225 - Data Structures",
+  "uuid": "68ef66d4-a112-474b-a739-bb7812655edb",
+  "semester": "Fall 2014",
+  "professors": ["Cinda Heeren", "Anna Yershova"],
+  "titles": [
+    {
+      "date": "20140825",
+      "title": "Introduction"
+    },
+
+    {
+      "date": "20140827",
+      "title": "Classes"
+    },
+
+    {
+      "date": "20140829",
+      "title": "Constructors"
+    },
+
+    {
+      "date": "20140901",
+      "title": "Labor Day"
+    },
+
+    {
+      "date": "20140903",
+      "title": "Pointers (I)"
+    },
+
+    {
+      "date": "20140905",
+      "title": "Pointers (II)"
+    },
+
+    {
+      "date": "20140908",
+      "title": "Arrays"
+    },
+
+    {
+      "date": "20140910",
+      "title": "Parameters"
+    },
+
+    {
+      "date": "20140912",
+      "title": "Return Values and Constructors"
+    },
+
+    {
+      "date": "20140915",
+      "title": "Operator Overloading"
+    },
+
+    {
+      "date": "20140917",
+      "title": "Inheritance (I)"
+    },
+
+    {
+      "date": "20140919",
+      "title": "Inheritance (II)"
+    },
+
+    {
+      "date": "20140920",
+      "title": "Templates"
+    },
+
+    {
+      "date": "20140922",
+      "title": "Linked Memory"
+    },
+
+    {
+      "date": "20140924",
+      "title": "Linked Lists"
+    },
+
+    {
+      "date": "20140926",
+      "title": "List Tricks"
+    },
+
+    {
+      "date": "20140929",
+      "title": "Midterm 1 Review"
+    },
+
+    {
+      "date": "20141001",
+      "title": "Stacks"
+    },
+
+    {
+      "date": "20141003",
+      "title": "Queues"
+    },
+
+    {
+      "date": "20141006",
+      "title": "Generic Programming (I)"
+    },
+
+    {
+      "date": "20141008",
+      "title": "Generic Programming (II)"
+    },
+
+    {
+      "date": "20141010",
+      "title": "Trees"
+    },
+
+    {
+      "date": "20141013",
+      "title": "Tree Traversals (I)"
+    },
+
+    {
+      "date": "20141015",
+      "title": "Tree Traversals (II)"
+    },
+
+    {
+      "date": "20141017",
+      "title": "Binary Search Trees (I)"
+    },
+
+    {
+      "date": "20141020",
+      "title": "Binary Search Trees (II)"
+    },
+
+    {
+      "date": "20141022",
+      "title": "Balanced Binary Search Trees (I)"
+    },
+
+    {
+      "date": "20141024",
+      "title": "Balanced Binary Search Trees (II)"
+    },
+
+    {
+      "date": "20141027",
+      "title": "AVL Tree Analysis"
+    },
+
+    {
+      "date": "20141029",
+      "title": "Intro to BTrees (I)"
+    },
+
+    {
+      "date": "20141031",
+      "title": "Intro to BTrees (II)"
+    },
+
+    {
+      "date": "20141103",
+      "title": "Midterm II Review"
+    },
+
+    {
+      "date": "20141105",
+      "title": "Hashing (I)"
+    },
+
+    {
+      "date": "20141107",
+      "title": "Hashing (II)"
+    },
+
+    {
+      "date": "20141110",
+      "title": "Priority Queues"
+    },
+
+    {
+      "date": "20141112",
+      "title": "Heaps"
+    },
+
+    {
+      "date": "20141114",
+      "title": "Heapsort"
+    },
+
+    {
+      "date": "20141117",
+      "title": "Disjoint Sets"
+    },
+
+    {
+      "date": "20141119",
+      "title": "Intro to Graphs (I)"
+    },
+
+    {
+      "date": "20141121",
+      "title": "Intro to Graphs (II)"
+    },
+
+    {
+      "date": "20141124",
+      "title": "Thanksgiving Break (I)"
+    },
+
+    {
+      "date": "20141126",
+      "title": "Thanksgiving Break (II)"
+    },
+
+    {
+      "date": "20141128",
+      "title": "Thanksgiving Break (III)"
+    },
+
+    {
+      "date": "20141201",
+      "title": "Graph Implementations"
+    },
+
+    {
+      "date": "20141203",
+      "title": "Graph Traversals"
+    },
+    {
+      "date": "20141205",
+      "title": "Minimum Spanning Trees (I)"
+    },
+
+    {
+      "date": "20141208",
+      "title": "Minimum Spanning Trees (II)"
+    },
+
+    {
+      "date": "20141210",
+      "title": "Single-Source Shortest Path"
+    },
+
+    {
+      "date": "20141215",
+      "title": "Final Exam"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "course": "CS 528 - Object Oriented Programming and Design",
   "uuid": "1b674cd2-d197-4652-85d9-c41e6b886f42",
   "semester": "Spring 2013",
-  "professor": "Ralph Johnson",
+  "professor": ["Ralph Johnson"],
   "titles": [
     {
       "date": "20130115",

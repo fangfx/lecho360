@@ -3,7 +3,7 @@
   "course": "CS 374 - Algorithms and Models of Computation",
   "uuid": "115f3def-7371-4e98-b72f-6efe53771b2a",
   "semester": "Fall 2014",
-  "professor": "Jeff Erickson",
+  "professors": ["Jeff Erickson"],
   "titles": [
     {
       "date": "20140826",

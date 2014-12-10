@@ -2,7 +2,7 @@
   "course": "CS 425 - Distributed Systems",
   "uuid": "11ae0191-49e2-4c34-95fd-fc65355262d4",
   "semester": "Fall 2014",
-  "professor": "Indranil (Indy) Gupta:",
+  "professor": ["Indranil (Indy) Gupta"],
   "titles": [
     {
       "date": "20140826",
