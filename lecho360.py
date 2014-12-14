@@ -42,6 +42,7 @@ def handle_args():
                         help="Path to the desired output directory",
                         metavar="OUTPUT_PATH")
     parser.add_argument("--after-date", "-a",
+                        dest="after_date",
                         help="Only download lectures newer than AFTER_DATE \
                              (inclusive). Note: this may be combined with \
                              --before-date.",
