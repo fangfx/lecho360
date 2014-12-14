@@ -24,7 +24,6 @@ class EchoVideos(object):
     def _get_title(self, titles, date):
         if titles is None:
             return ""
-
         try:
             for title in titles:
                 title_date = dateutil.parser.parse(title["date"]).date()
