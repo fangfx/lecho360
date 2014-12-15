@@ -1,12 +1,12 @@
-# Contents #
+# Lecho360 #
+
+### Contents ###
 1. [Main](https://github.com/jhalstead85/lecho360/blob/master/Readme.md#lecho360)
 2. [Requirements](https://github.com/jhalstead85/lecho360/blob/master/Readme.md#requirements)
 3. [Usage](https://github.com/jhalstead85/lecho360/blob/master/Readme.md#usage)
 4. [Examples](https://github.com/jhalstead85/lecho360/blob/master/Readme.md#examples)
 5. [Title Mapping Format](https://github.com/jhalstead85/lecho360/blob/master/Readme.md#title-mapping-format)
 6. [FAQ](https://github.com/jhalstead85/lecho360/blob/master/Readme.md#faq)
-
-# Lecho360 #
 
 Lecho360 is a command-line Python tool that allows you to download lecture
 videos from UIUC's Echo360 lecture portal. All that's required is the particular
