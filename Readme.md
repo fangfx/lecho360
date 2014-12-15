@@ -145,15 +145,20 @@ Several real examples of these mapping files can be found in the top-level `lech
 # FAQ #
 
 ### How do I retrieve the UUID for course XYZ? ###
-This is the most involved part (unless you have access to a titles file). What you need is the URL to the course's main Echo360 lecture page. It's the main page that lists all the recorded lectures and gives you the option to stream them or download them individually. You can usually find this link on your course's main webpage. If your course webpage only links directly to videos, then you should be able to navigate back to the main portal via that link.
+This is the most involved part (unless you have access to a titles file). What you need is the URL to the course's main Echo360 lecture page. It's the main page that lists all the recorded lectures and gives you the option to stream them or download them individually.
 
-An example URL (for the Fall 2013 semester of CS 473) looks like
+![CS 473' Main Echo360 Lecture Page](http://i.imgur.com/TfKRFhg.png)
+
+
+You can usually find this link on your course's main webpage. If your course webpage only links directly to videos, then you should be able to navigate back to the main portal via that link.
+
+The URL for the Fall 2013 semester of CS 473 looks like
 
 ```
 http://recordings.engineering.illinois.edu/ess/portal/section/a0143734-86e8-4d0a-aba1-a44715ec085c
 ```
 
-The UUID is the last element of the URL. So in the above example it's,
+which you can verify is correct in the above screenshot. The UUID is the last element of the URL. So in the above example it's,
 
 ```
 a0143734-86e8-4d0a-aba1-a44715ec085c
