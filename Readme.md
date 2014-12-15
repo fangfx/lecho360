@@ -20,7 +20,7 @@ Please excuse any hackiness in the implementation. :) It was originally intended
 
 # Requirements #
 
-### Python >= 2.7 ###
+### Python ###
 - Dateutil >= 2.2
 - Selenium >= 2.44.0
 
@@ -29,11 +29,13 @@ pip install -r requirements.txt
 ```
 
 ### NodeJS ###
-- PhantomJS >= 1.9.12
+- PhantomJS >= 1.9.7
 
 ```
 npm -g install phantomjs
 ```
+
+If it fails to install via `npm`, then visit [http://phantomjs.org/download.htm](http://phantomjs.org/download.htm) for further instructions. Alternatively, if you're using `Ubuntu 14.04`, then [these instructions](http://sonnguyen.ws/install-nodejs-phantomjs-casperjs-ubuntu-14-04) worked for me. 
 
 ### Operating System ###
 - Linux
