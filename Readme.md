@@ -144,7 +144,7 @@ Several real examples of these mapping files can be found in the top-level `lech
 
 # FAQ #
 
-### How do I retrieve the UUID for course XYZ? ###
+### How do I retrieve the UUID for a course? ###
 This is the most involved part (unless you have access to a titles file). What you need is the URL to the course's main Echo360 lecture page. It's the main page that lists all the recorded lectures and gives you the option to stream them or download them individually.
 
 ![CS 473' Main Echo360 Lecture Page](http://i.imgur.com/TfKRFhg.png)
