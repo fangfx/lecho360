@@ -111,7 +111,7 @@ python lecho360.py                              \
 
 ### Download lectures with intelligent titles ###
 ```
->>> python lecho360.py
+>>> python lecho360.py                          \
   --uuid "a0143734-86e8-4d0a-aba1-a44715ec085c" \
   --ouput "~/Lectures"                          \
   --after-date "2014-08-26"                     \
