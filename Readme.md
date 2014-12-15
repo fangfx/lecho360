@@ -16,7 +16,6 @@ Without that optional file, files will be named like
 [COURSE] - [LECTURE DATE] - Lecture [NUMBER].m4v
 ```
 
-
 # Requirements #
 
 ### Python >= 2.7 ###
@@ -33,6 +32,12 @@ pip install -r requirements.txt
 ```
 npm -g install phantomjs
 ```
+
+### Operating System ###
+- Linux
+- OS X
+
+I don't have a Windows machine to test this on, but it should work.
 
 # Usage #
 ```
