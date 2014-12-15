@@ -73,7 +73,8 @@ optional arguments:
                                           on the required format.
 
   --output OUTPUT_PATH,                   Path to the desired output directory.
-  -o OUTPUT_PATH
+  -o OUTPUT_PATH                          The output directory must exist. Otherwise
+                                          the current directory is used.
 
   --after-date AFTER_DATE(YYYY-MM-DD),    Only download lectures newer than
   -a AFTER_DATE(YYYY-MM-DD)               AFTER_DATE (inclusive). Note: This may
