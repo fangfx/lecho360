@@ -92,7 +92,7 @@ optional arguments:
   --ouput "~/Lectures"
 ```
 
-### Download all lectures on before a date ###
+### Download all lectures on or before a date ###
 ```
 >>> python lecho360.py                          \
   --uuid "a0143734-86e8-4d0a-aba1-a44715ec085c" \
