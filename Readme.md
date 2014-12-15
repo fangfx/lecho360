@@ -16,6 +16,8 @@ Without that optional file, files will be named like
 [COURSE] - [LECTURE DATE] - Lecture [NUMBER].m4v
 ```
 
+Please excuse any hackiness in the implementation. :) It was originally intended to be a one-off, one-file solution.
+
 # Requirements #
 
 ### Python >= 2.7 ###
