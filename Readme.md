@@ -71,12 +71,10 @@ optional arguments:
   -a AFTER_DATE(YYYY-MM-DD)               AFTER_DATE (inclusive). Note: This may
                                           be combined with --before-date.
 
-
   --before-date BEFORE_DATE(YYYY-MM-DD),  Only download lectures older than
   -b BEFORE_DATE(YYYY-MM-DD)              BEFORE_DATE (inclusive). Note: This may
                                           be combined with --after-date.
 ```
-
 # Examples #
 
 ### Download all available lectures ###
