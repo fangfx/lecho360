@@ -48,8 +48,8 @@ I don't have a Windows machine to test this on, but it should work.
 >>> python lecho360.py
 
 usage: lecho360.py [-h] --uuid COURSE_UUID [--titles TITLES_PATH]
-[--output OUTPUT_PATH] [--after-date AFTER_DATEYYYY-MM-DD)]
-[--before-date BEFORE_DATE(YYYY-MM-DD]
+[--output OUTPUT_PATH] [--after-date AFTER_DATE(YYYY-MM-DD)]
+[--before-date BEFORE_DATE(YYYY-MM-DD)]
 
 Download lectures from UIUC's Echo360 portal.
 
