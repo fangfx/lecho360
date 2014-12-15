@@ -125,7 +125,7 @@ python lecho360.py                              \
   --ouput "~/Lectures"                          \
   --after-date "2014-08-26"                     \
   --before-date "2014-10-14"                    \
-  --title "14fa-cs473.json"
+  --titles "14fa-cs473.json"
 ```
 
 # Title Mapping Format #
