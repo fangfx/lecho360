@@ -1,0 +1,172 @@
+{
+  "course": "CS 173 - Discrete Structures",
+  "uuid": "59b209c7-d1aa-43f6-aa2e-07fa94d6383e",
+  "semester": "Fall 2013",
+  "professors": ["Madhusudan Parthasarathy"],
+  "titles": [
+    {
+      "date": "20130827",
+      "title": "Introduction"
+    },
+
+    {
+      "date": "20130829",
+      "title": "Logic (I)"
+    },
+
+    {
+      "date": "20130903",
+      "title": "Logic (II) and Proofs (I)"
+    },
+
+    {
+      "date": "20130905",
+      "title": "Proofs (II)"
+    },
+
+    {
+      "date": "20130910",
+      "title": "Number Theory (I)"
+    },
+
+    {
+      "date": "20130912",
+      "title": "Number Theory (II) and Sets (I)"
+    },
+
+    {
+      "date": "20130917",
+      "title": "Sets (II)"
+    },
+
+    {
+      "date": "20130919",
+      "title": "Relations"
+    },
+
+    {
+      "date": "20130924",
+      "title": "Onto Functions"
+    },
+
+    {
+      "date": "20130926",
+      "title": "One-to-One Functions"
+    },
+
+    {
+      "date": "20131001",
+      "title": "Midterm 1"
+    },
+
+    {
+      "date": "20131003",
+      "title": "Graphs (I)"
+    },
+
+    {
+      "date": "20131008",
+      "title": "Graphs (II) and 2-way Bounding"
+    },
+
+    {
+      "date": "20131010",
+      "title": "Induction (I)"
+    },
+
+    {
+      "date": "20131015",
+      "title": "Induction (II)"
+    },
+
+    {
+      "date": "20131017",
+      "title": "Recursive Definition"
+    },
+
+    {
+      "date": "20131022",
+      "title": "Trees (I)"
+    },
+
+    {
+      "date": "20131024",
+      "title": "Trees (II)"
+    },
+
+    {
+      "date": "20131029",
+      "title": "Midterm 2"
+    },
+
+    {
+      "date": "20131031",
+      "title": "Big-O and Algorithms (I)"
+    },
+
+    {
+      "date": "20131105",
+      "title": "Algorithms (II)"
+    },
+
+    {
+      "date": "20131107",
+      "title": "Advanced Induction"
+    },
+
+    {
+      "date": "20131112",
+      "title": "Contradiction"
+    },
+
+    {
+      "date": "20131114",
+      "title": "Collection of Sets (I)"
+    },
+
+    {
+      "date": "20131119",
+      "title": "Collection of Sets (II) and State Diagrams (I)"
+    },
+
+    {
+      "date": "20131121",
+      "title": "State Diagrams (II)"
+    },
+
+    {
+      "date": "20131126",
+      "title": "Thanksgiving Break (I)"
+    },
+
+    {
+      "date": "20131128",
+      "title": "Thanksgiving Break (II)"
+    },
+
+    {
+      "date": "20131203",
+      "title": "Midterm 3"
+    },
+
+    {
+      "date": "20131205",
+      "title": "Countability (I)"
+    },
+
+    {
+      "date": "20131203",
+      "title": "Countability (II)"
+    },
+
+    {
+      "date": "20131210",
+      "title": "Reading Day"
+    },
+
+    {
+      "date": "20131218",
+      "title": "Final"
+    }
+  ]
+}

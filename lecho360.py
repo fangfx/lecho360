@@ -7,12 +7,6 @@ from datetime import datetime
 from EchoCourse import EchoCourse
 from EchoDownloader import EchoDownloader
 
-# Python requirements
-# - python >= 2.7
-# - dateutil
-# - selenium
-# NodeJS requirements
-# - PhantomJS
 
 _DEFAULT_BEFORE_DATE = datetime(2100, 1, 1).date()
 _DEFAULT_AFTER_DATE = datetime(1900, 1, 1).date()

@@ -1,0 +1,172 @@
+{
+  "course": "CS 173 - Discrete Structures",
+  "uuid": "f0f3bede-1db3-449b-804b-c26b8c9d9600",
+  "semester": "Spring 2014",
+  "professors": ["Derek Hoiem"],
+  "titles": [
+    {
+      "date": "20140121",
+      "title": "Introduction"
+    },
+
+    {
+      "date": "20140123",
+      "title": "Logic (I)"
+    },
+
+    {
+      "date": "20140128",
+      "title": "Logic (II) and Proofs (I)"
+    },
+
+    {
+      "date": "20140130",
+      "title": "Proofs (II)"
+    },
+
+    {
+      "date": "20140204",
+      "title": "Number Theory (I)"
+    },
+
+    {
+      "date": "20140206",
+      "title": "Number Theory (II) and Sets (I)"
+    },
+
+    {
+      "date": "20140211",
+      "title": "Sets (II)"
+    },
+
+    {
+      "date": "20140213",
+      "title": "Relations"
+    },
+
+    {
+      "date": "20140218",
+      "title": "Onto Functions"
+    },
+
+    {
+      "date": "20140220",
+      "title": "One-to-One Functions"
+    },
+
+    {
+      "date": "20140225",
+      "title": "Midterm 1"
+    },
+
+    {
+      "date": "20140227",
+      "title": "Graphs (I)"
+    },
+
+    {
+      "date": "20140304",
+      "title": "Graphs (II) and 2-way Bounding"
+    },
+
+    {
+      "date": "20140306",
+      "title": "Induction (I)"
+    },
+
+    {
+      "date": "20140311",
+      "title": "Induction (II)"
+    },
+
+    {
+      "date": "20140313",
+      "title": "Recursive Definition"
+    },
+
+    {
+      "date": "20140318",
+      "title": "Trees (I)"
+    },
+
+    {
+      "date": "20140320",
+      "title": "Trees (II)"
+    },
+
+    {
+      "date": "20140325",
+      "title": "Spring Break (I)"
+    },
+
+    {
+      "date": "20140327",
+      "title": "Spring Break (II)"
+    },
+
+    {
+      "date": "20140401",
+      "title": "Big-O and Algorithms (I)"
+    },
+
+    {
+      "date": "20140403",
+      "title": "Algorithms (II)"
+    },
+
+    {
+      "date": "20140408",
+      "title": "Midterm 2"
+    },
+
+    {
+      "date": "20140410",
+      "title": "NP"
+    },
+
+    {
+      "date": "20140415",
+      "title": "Contradiction"
+    },
+
+    {
+      "date": "20140417",
+      "title": "Collection of Sets (I)"
+    },
+
+    {
+      "date": "20140422",
+      "title": "Collection of Sets (II) and State Diagrams (I)"
+    },
+
+    {
+      "date": "20140424",
+      "title": "State Diagrams (II)"
+    },
+
+    {
+      "date": "20140429",
+      "title": "Countability (I)"
+    },
+
+    {
+      "date": "20140501",
+      "title": "Countability (II)"
+    },
+
+    {
+      "date": "20140506",
+      "title": "Summary and Applications"
+    },
+
+    {
+      "date": "20140508",
+      "title": "Reading Day"
+    },
+
+    {
+      "date": "20140514",
+      "title": "Final"
+    }
+  ]
+}

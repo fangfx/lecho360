@@ -29,7 +29,7 @@ class EchoDownloader(object):
         # in case a JSON file isn't passed (and we need to label them as
         # Lecture 1, 2, ...)
         for i, video in reversed(list(enumerate(filtered_videos))):
-            # TODO Check if the lecture number is be included in the JSON object.
+            # TODO Check if the lecture number is included in the JSON object.
             lecture_number = self._find_pos(videos, video)
             title = video.title if (video.title != "") else "Lecture {}".format(lecture_number+1)
             filename = self._get_filename(self._course.course_id, video.date, title)
