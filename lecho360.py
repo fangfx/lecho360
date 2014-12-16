@@ -33,7 +33,9 @@ def handle_args():
                               required format",
                         metavar="TITLES_PATH")
     parser.add_argument("--output", "-o",
-                        help="Path to the desired output directory",
+                        help="Path to the desired output directory The output \
+                             directory must exist. Otherwise the current \
+                             directory is used.",
                         metavar="OUTPUT_PATH")
     parser.add_argument("--after-date", "-a",
                         dest="after_date",

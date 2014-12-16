@@ -1,5 +1,13 @@
 # Lecho360 #
 
+### Contents ###
+1. [Main](https://github.com/jhalstead85/lecho360/blob/master/Readme.md#lecho360)
+2. [Requirements](https://github.com/jhalstead85/lecho360/blob/master/Readme.md#requirements)
+3. [Usage](https://github.com/jhalstead85/lecho360/blob/master/Readme.md#usage)
+4. [Examples](https://github.com/jhalstead85/lecho360/blob/master/Readme.md#examples)
+5. [Title Mapping Format](https://github.com/jhalstead85/lecho360/blob/master/Readme.md#title-mapping-format)
+6. [FAQ](https://github.com/jhalstead85/lecho360/blob/master/Readme.md#faq)
+
 Lecho360 is a command-line Python tool that allows you to download lecture
 videos from UIUC's Echo360 lecture portal. All that's required is the particular
 course's UUID. See the FAQ for tips on how to find it.
@@ -65,7 +73,8 @@ optional arguments:
                                           on the required format.
 
   --output OUTPUT_PATH,                   Path to the desired output directory.
-  -o OUTPUT_PATH
+  -o OUTPUT_PATH                          The output directory must exist. Otherwise
+                                          the current directory is used.
 
   --after-date AFTER_DATE(YYYY-MM-DD),    Only download lectures newer than
   -a AFTER_DATE(YYYY-MM-DD)               AFTER_DATE (inclusive). Note: This may
@@ -84,7 +93,7 @@ optional arguments:
   --ouput "~/Lectures"
 ```
 
-### Downlaod all lectures on before a date ###
+### Download all lectures on or before a date ###
 ```
 >>> python lecho360.py                          \
   --uuid "a0143734-86e8-4d0a-aba1-a44715ec085c" \
@@ -116,7 +125,7 @@ python lecho360.py                              \
   --ouput "~/Lectures"                          \
   --after-date "2014-08-26"                     \
   --before-date "2014-10-14"                    \
-  --title "14fa-cs473.json"
+  --titles "14fa-cs473.json"
 ```
 
 # Title Mapping Format #
